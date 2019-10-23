@@ -247,11 +247,14 @@
         margin: 12px 50px;
     }
 
-    #overlay ul {
+   #overlay ul {
         padding-right: 35%;
     }
-
-
+    
+    #overlay ul li{
+        padding: 0px;
+    }
+    
     .gridItem {
         width: 100%;
     }
