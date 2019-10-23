@@ -234,9 +234,17 @@
 
 @media all and (max-width: 500px) {
 
+    .navMenu{
+        height: 80px;
+    }
+    
+    #overlay-button{
+        top: 1.5em;
+    }
+    
     .logo {
-        width: 60px;
-        margin: 35px 50px;
+        width: 55px;
+        margin: 12px 50px;
     }
 
     #overlay ul {
