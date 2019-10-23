@@ -1,0 +1,235 @@
+/* media query 
+---------------- */
+
+@media all and (max-width: 1015px) {}
+
+@media all and (max-width: 920px) {
+
+
+    /* Grid Layout
+------------------------*/
+    .col-m-1 {
+        width: 8.33%;
+    }
+
+    .col-m-2 {
+        width: 16.66%;
+    }
+
+    .col-m-3 {
+        width: 25%;
+    }
+
+    .col-m-4 {
+        width: 33.33%;
+    }
+
+    .col-m-5 {
+        width: 41.66%;
+    }
+
+    .col-m-6 {
+        width: 50%;
+    }
+
+    .col-m-7 {
+        width: 58.33%;
+    }
+
+    .col-m-8 {
+        width: 66.66%;
+    }
+
+    .col-m-9 {
+        width: 75%;
+    }
+
+    .col-m-10 {
+        width: 83.33%;
+    }
+
+    .col-m-11 {
+        width: 91.66%;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+
+    [class*="col"] {
+
+        float: left;
+        padding: 15px;
+    }
+
+
+    .about {
+        padding-bottom: 80px;
+    }
+
+}
+
+@media all and (max-width: 910px) {
+
+    .menu {
+        display: none;
+    }
+
+    .hamburgerManu {
+        display: block;
+    }
+
+    .address {
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    .address li {
+        font-size: 14px;
+    }
+
+    .address ul {
+        line-height: 40px;
+    }
+
+    .address h2 {
+        font-size: 40px;
+    }
+
+    .address h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width: 710px) {
+
+    /* Grid Layout
+------------------------*/
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+
+    [class*="col"] {
+
+        float: left;
+        padding: 15px;
+    }
+
+    .address {
+        padding: 50px 0px;
+
+    }
+
+    .address li {
+        font-size: 18px;
+    }
+
+    .address ul {
+        line-height: 40px;
+    }
+
+    .address h2 {
+        font-size: 50px;
+    }
+
+    .address h3 {
+        font-size: 25px;
+    }
+
+    .about h5 {
+        display: none;
+    }
+
+    .about ul {
+        padding-bottom: 0px;
+    }
+
+    .aboutHeader {
+        font-size: 40px;
+    }
+
+    .experiences {
+        line-height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .gridItem {
+        width: 100%;
+    }
+
+    .gridContainer {
+        padding-top: 0px;
+    }
+
+    .contentBox .webLink,
+    .close {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .infoBox{
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width: 35em) {
+    .grid li {
+        width: 50%;
+
+    }
+
+    @media screen and (max-width: 24em) {
+        .grid li {
+            width: 100%;
+        }
+    }
